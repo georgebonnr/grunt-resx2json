@@ -21,7 +21,9 @@
     }
   ],
   "main": "grunt.js",
-  "bin": "bin/grunt-xml2json",
+  "bin": {
+    "grunt-resx2json": "bin/grunt-xml2json"
+  },
   "engines": {
     "node": "*"
   },
